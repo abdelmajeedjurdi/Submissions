@@ -1,1 +1,19 @@
 /* Add your CSS code below */
+.link {
+  color: red;
+  font-weight: bold;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.message__author {
+  border-left: 6px;
+}
+
+.message__author {
+  opacity: 60%;
+}
+
+.messages {
+  line-height: 1.2em;
+}
