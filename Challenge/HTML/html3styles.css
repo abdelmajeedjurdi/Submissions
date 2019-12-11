@@ -1,0 +1,54 @@
+.header-image {background-image: url(https://ardumakers.com/wp-content/uploads/2018/05/looped-hexagon-hi-tech-background-visual-for-different-projects_nvmtlwlax__F0000.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1000px;
+    height: 200px;
+    color: white;
+    margin-bottom: 10px;
+}
+body{
+    background-color: #212b2d;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    color: white;
+
+}
+header nav{
+    background-color: #323c3e;
+    display: flex;
+}
+header nav a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+.main{
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+
+.bottom{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.side-nav ul li a{
+    color: white;
+}
+
+footer{
+    text-align: center;
+}
+
+.block input{
+    background: none;
+    color: white;
+    border: none;
+}
