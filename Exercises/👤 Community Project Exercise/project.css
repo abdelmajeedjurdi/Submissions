@@ -1,0 +1,19 @@
+body,
+html {
+  background: #323233;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu",
+    "Cantarell", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  line-height:3.2em;
+padding: 6px;
+}
+.stylesheet{
+    color: red;
+    font-weight: bold;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+body {
+  
+    background-image: url("https://www.ngrp.com/wp-content/uploads/2019/01/Home-continued-1.jpg");
+}
