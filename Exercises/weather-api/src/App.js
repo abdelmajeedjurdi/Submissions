@@ -10,11 +10,15 @@ class App extends Component {
   render() {
     return (
       <div className="app">
-        <header className="app__header"></header>
+        <header className="app__header">
+        <form action="/actionpage.">
+            <input type="text" name="city" placeholder="city" id="city"></input>
+            <input type="button" value="Find weather" id="find"></input>
+          </form>
+        </header>
         <main className="app__main"></main>
       </div>
     );
   }
 }
-
 export default App;

@@ -1,10 +1,28 @@
-.app {
-  height: 100vh;
-  width: 100vw;
-  transition: background-color 1s ease-in;
+/* All the page*/
+* {
+  font-family: "Raleway", sans-serif;
+  /* border: 2px solid black; */
 }
+.app__header{
+  background-color: rgb(125, 158, 212);
 
-.app__header,
+  padding: 1em;
+  font-family: "Raleway", sans-serif;
+}
+#city {
+  background-color: rgb(125, 158, 212);
+  border: none;
+  color: white;
+  font-size: 1.2em;
+}
+#find {
+  background-color: rgb(70, 97, 166);
+  border: none;
+  padding: 10px;
+  border-radius: 2px;
+  font-size: 1.3em;
+  color: black;
+}
 .app__main {
   width: 100%;
   display: flex;
