@@ -3,3 +3,11 @@
 }
 
 /* Add your own CSS code below */
+.site-wrapper{
+align-items: baseline;
+flex-direction: column;
+columns: 2;
+display: flex;
+
+}
+

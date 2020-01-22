@@ -7,3 +7,8 @@
 }
 
 /* Add your own CSS code below */
+
+.countries {
+  flex-direction: column;
+  justify-content: flex-start;
+}

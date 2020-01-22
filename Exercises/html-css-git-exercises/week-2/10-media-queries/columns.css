@@ -1,1 +1,21 @@
 /* Add your own CSS code below */
+.countries {
+    columns: 2;
+    
+  }
+
+@media screen and (max-width: 768px) {
+    .column {
+      width: 50%;
+    }
+  }
+
+.countries {
+    columns: 3;
+  }
+
+  @media screen and (max-width: 1200px) {
+    .column {
+      width: 50%;
+    }
+  }

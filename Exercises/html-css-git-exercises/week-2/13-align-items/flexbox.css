@@ -2,3 +2,7 @@
   display: flex;
 }
 /* Add your own CSS code below */
+.countries{
+align-items: baseline;
+  flex-direction: column;
+}

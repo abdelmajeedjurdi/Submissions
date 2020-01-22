@@ -3,3 +3,8 @@
 }
 
 /* Add your own CSS code below */
+.site-wrapper{
+  display: flex;
+  text-align: center;
+  order: 5;
+}

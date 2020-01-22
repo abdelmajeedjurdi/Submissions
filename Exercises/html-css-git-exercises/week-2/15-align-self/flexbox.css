@@ -3,3 +3,14 @@
 }
 
 /* Add your own CSS code below */
+.site-wrapper{
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+
+}
+
+.countries{
+  align-self: initial;
+}
