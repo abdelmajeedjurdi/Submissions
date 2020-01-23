@@ -49,3 +49,24 @@ app.get('/search', (req, res) =>
   app.get('/movies/delete', (req, res) => {
     res.json({status:200,message: "deleted" });
   });
+
+  app.get('/movies/read/by-date', (req, res) => {
+    const sortedMovies = movies.sort((a, b) => a.year - b.year);
+    res.send({ status: 200, message: "ok", data: sortedMovies });
+  });
+  app.get('/movies/read/by-rating', (req, res) => {
+    const sortedRating= movies.sort((a, b) => a.rating - b.rating);
+    res.send({ status: 200, message: "ok", data: sortedRating });
+  });
+ 
+
+  app.get('/movies/read/by-title', (req, res) => {
+    const sortedTitle= movies.sort(function(a, b){
+    var x = a.title.toLowerCase();
+    var y = b.title.toLowerCase();
+    if (x < y) {return -1;}
+    if (x > y) {return 1;}
+    return 0;
+  }); 
+  res.send({ status: 200, message: "ok", data: sortedTitle });
+});
