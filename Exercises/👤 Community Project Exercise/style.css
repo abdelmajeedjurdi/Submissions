@@ -1,0 +1,322 @@
+li {
+    display: inline-block;
+    color: white;
+    
+   
+}
+.lists{
+    float: left;
+    position: absolute;
+    left: 30px;
+    top: 50px;
+}
+
+ul {
+    float: left;
+  
+}
+
+#nav{
+    background-color: rgb(23, 8, 65);
+    height: 40px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.grid-container {
+    display: grid;
+     grid-template-columns: auto auto auto auto auto;
+     margin-left: 60px;
+     height: 60px;
+     background-color: rgb(71, 25, 25);
+     margin: 0px;
+     padding: 3px;
+     
+  }
+  .container{
+      width: 90%;
+      height: 100%;
+  }
+
+.profile{
+        position: relative;
+        text-align: center;
+        color:black;
+}
+.Literature{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 70px;
+}
+.Read{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    color: wheat;
+    font-size: 20px;
+}
+img{
+  width: 101%;
+  height: 100%;
+  margin-left: -10px;
+  margin-right: -9px;
+   
+}
+.grid-container 
+    :hover {
+    background-color: #111;
+width: 50%;
+border: 1px solid black;
+} 
+
+.inputSearch{
+    float: right;
+    position: absolute;
+    right: 50px;
+    top: 70px;
+    background-color:black;
+    border:solid grey 1px;
+    width: 9%;
+    height: 5%;
+}
+.profile{
+    padding: 10px 0;
+    margin: 50px;
+   width: 100%;
+   height: 350px;
+   margin: 0 auto;
+   text-align: center;
+
+}
+#Make{
+    background-color: rgb(28, 54, 28);
+    border: solid black 1px;
+    padding: 10px;
+    margin:-7px;
+    border-radius: 20%;
+}
+#Make p {
+    color: white;
+}
+
+#buttons {
+    margin-right: 30px;
+    float: right;
+    position: absolute;
+    right: 150px;
+    top: 70px;
+    border: solid grey 1px;
+    background-color: teal;
+    width: 8%;
+    height: 5%;
+    
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    padding: 5px;
+    font-size: 50px;
+
+}
+h6{
+    text-align: center;
+    color:gray;
+}
+#wrap {
+    background-color: rgb(71, 25, 25);
+    width: 100%;
+}
+
+body {
+    background-color:rgb(71, 25, 25);
+}
+
+
+.item1 a{
+    color: white;
+}
+.item2 a{
+    color: white;
+}
+.item3 a{
+    color: white;
+}
+.item4 a{
+    color: white;
+}
+.item5 a{
+    color: white;
+}
+
+
+
+
+
+.item6{
+    border: solid black 1px;
+    width: 300px;
+    height: 300px;
+}
+.item7{
+    border: solid black 1px;
+    width: 300px;
+    height: 300px; 
+}
+
+.item8{
+    border: solid black 1px;
+    width: 300px;
+    height: 300px;}
+.item9{
+    border: solid black 1px;
+    width: 300px;
+    height: 300px;
+}
+.item10{
+    border: solid black 1px;
+    width: 300px;
+    height: 300px;
+}
+.item11{
+    border: solid black 1px;
+    width: 300px;
+    height: 300px;
+}
+
+.grid-cont{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 45px;
+    background-color: rgb(71, 25, 25);
+    padding: 10px; 
+    margin: 40px 40px;
+    justify-content: center;
+    height: 100%;
+flex-direction: row;
+text-align: center;
+  
+  }
+  
+  .grid-cont > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 40px 0;
+    margin: 20px;
+    font-size: 30px;
+  }
+  .xx{
+    text-decoration: none;
+  }
+  .im{
+    width: 90%;
+  }
+  
+  
+
+#butt{
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 250px;
+}
+.sd{
+  text-decoration: none;
+}
+
+.btn-group .button {
+  background-color:rgb(20, 6, 6);
+  border: none;
+  color: white;
+  padding: 15px 52px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+cursor: progress;  width: 19%;
+  height: 10%;
+margin-left: 140px;
+}
+.btn-group{
+    background-color: black;
+    margin:-8px;
+    text-decoration: none;
+
+}
+.btn-group .button:hover {
+  background-color: rgb(2, 2, 53);
+}
+.s-footer{
+  background-color: rgb(28, 54, 28);
+  text-align: justify;
+  border-radius: 10px;
+  margin: -7px;
+}
+h4{
+  color: rgb(175, 175, 22);
+}
+p{
+  color: rgb(216, 202, 230);
+}
+
+
+
+
+
+
+.CO{
+  background-color: rgb(209, 114, 114);
+}
+.CO img{
+  width: 100%;
+  height: 100%;
+flex: initial;
+border-image-width: 10px;
+border-radius: 70px;}
+#ss{
+  background-image: url(https://previews.123rf.com/images/flybird163/flybird1631508/flybird163150800993/44034793-literature-word-write-on-paper.jpg);
+border-radius: 10px;
+border-image-width: 3px;}
+
+#big{
+  background-color: rgb(71, 25, 25);
+}
+#small p{
+  color: rgb(63, 23, 23);
+}
+#small{
+  background-image: url(https://study.com/cimages/course-image/common-core-literature-grades-11-12_116458_large.jpg)
+}
+#small img{
+  border-radius: 60px;
+}
+.lists1{
+float: right; 
+ position: absolute;
+  left: 0px;
+  top: 15px;
+}
+.lists2{
+  float: left; 
+   position: absolute;
+    left: 0px;
+    top: 15px;
+    padding: 1px;
+  }
+ 
+ 
+  .lists{
+    background-image: url(https://lithub.com/wp-content/uploads/2019/07/writing.jpg);
+  
+  }
+  .inputSearch{
+    background-image: url(https://lithub.com/wp-content/uploads/2019/07/writing.jpg);
+  }
+
+
